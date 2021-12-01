@@ -39,4 +39,7 @@ console.log(middleNums)
 
 let arr = [55]
 
+function bigOrSmall => {
+  
+}
 while ()
