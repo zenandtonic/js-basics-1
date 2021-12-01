@@ -33,7 +33,10 @@ let gitHubDefinition = "GitHub is a provider of Internet hosting for software de
     following the guidelines above to describe the init command.
 */
 
-let init = git init "Create an empty Git repository or reinitialize an existing one. source: git-scm.com"
+let init = {
+    description: "Create an empty Git repository or reinitialize an existing one. source: git-scm.com",
+    code: "git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@ let init = git init "Create an empty Git repository or reinitialize an existing 
     following the guidelines above to describe the clone command.
 */
 
-let clone = git clone "Clone a repository into a new directory. source: git-scm.com"
+let clone = {
+    description: "Clone a repository into a new directory. source: git-scm.com",
+    code: "git clone"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@ let clone = git clone "Clone a repository into a new directory. source: git-scm.
     following the guidelines above to describe the status command.
 */
 
-let status = git status "Shows the current state of your Git working directory and staging area. Source: github.com"
+let status = {
+    description: "Shows the current state of your Git working directory and staging area. Source: github.com",
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@ let status = git status "Shows the current state of your Git working directory a
     following the guidelines above to describe the add command.
 */
 
-let add = git add "Add file contents to the index. Source: git-scm.com"
+let add = {
+    desccription: "Add file contents to the index. Source: git-scm.com",
+    code: "git add ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@ let add = git add "Add file contents to the index. Source: git-scm.com"
     following the guidelines above to describe the commit command.
 */
 
-let commit = git commit "Record changes to the repository. Source: git-scm.com"
+let commit = {
+    desccription: "Record changes to the repository. Source: git-scm.com",
+    code: git commit -m "[insert message here]"
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +89,7 @@ let commit = git commit "Record changes to the repository. Source: git-scm.com"
     following the guidelines above to describe the push command.
 */
 
-let push = git push "Update remote refs along with associated objeccts. Source: git-scm.com"
+let push = {
+ description: "Update remote refs along with associated objeccts. Source: git-scm.com",
+ code: "git push"
+}
