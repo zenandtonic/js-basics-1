@@ -79,7 +79,7 @@ let add = {
 
 let commit = {
     desccription: "Record changes to the repository. Source: git-scm.com",
-    code: git commit -m "[insert message here]"
+    code: "git commit -m" 
 }
 
 
